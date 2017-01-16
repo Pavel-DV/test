@@ -1,0 +1,25 @@
+import React, { PropTypes } from 'react'
+import {ListItem} from 'material-ui/List';
+
+const Address = ({ onClick, activeAddress, address }) => (
+
+    <ListItem
+        //onClick={onClick}
+        key={address}
+        value={address}
+        primaryText={address}
+        style={{
+            fontWeight:
+                activeAddress === address ?
+                    'bold':
+                    'normal'
+        }}   />
+);
+
+Address.propTypes = {
+    //onClick: PropTypes.func.isRequired,
+    activeAddress: PropTypes.string,
+    address: PropTypes.string
+};
+
+export default Address

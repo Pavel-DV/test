@@ -1,0 +1,17 @@
+body {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+}
+
+#root {
+    width: 600px;
+}
+
+h1, h2 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
