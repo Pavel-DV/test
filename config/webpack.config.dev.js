@@ -30,7 +30,7 @@ var provided = {
 module.exports = {
   devtool: 'eval',
   entry: [
-    require.resolve('webpack-dev-server/client') + '?http://192.168.100.133:3000',
+    require.resolve('webpack-dev-server/client') + '?http://localhost:3000',
     require.resolve('webpack/hot/dev-server'),
     path.join(srcPath, 'index')
   ],

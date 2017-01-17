@@ -24,7 +24,7 @@ webpack(config).run(function(err, stats) {
   console.log('  cd build');
   console.log('  npm install -g http-server');
   console.log('  hs');
-  console.log('  ' + openCommand + ' http://192.168.100.133:8080');
+  console.log('  ' + openCommand + ' http://localhost:8080');
   console.log();
   console.log('The bundle is optimized and ready to be deployed to production.');
 });
